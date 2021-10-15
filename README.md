@@ -24,5 +24,6 @@ Converting the data :
 ```
 Analysing the data to finally get the Z-factors :
 ```
-./analysis ./output masaaki qslash --known-ZV 0.71408 --known-ZA 0.71408
+./analysis ./output Masaaki_qslash qslash --known-ZV 0.71408 --known-ZA 0.71408
 ```
+Of course the above have files which you do not know about (`run_1`), but that's just lattice data
