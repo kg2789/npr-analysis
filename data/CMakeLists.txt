@@ -1,0 +1,18 @@
+add_subdirectory(greg)
+
+set(DATA_CONVERSION_SOURCES
+    ${CMAKE_CURRENT_SOURCE_DIR}/io.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/rabbott.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/raw.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/greg.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/ziyuan.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/debug.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../data.cpp
+    ${CMAKE_CURRENT_SOURCE_DIR}/../util.cpp
+    ${GREG_SOURCES}
+    PARENT_SCOPE)
+
+set(DATA_CONVERSION_INCLUDES
+    ${CMAKE_CURRENT_SOURCE_DIR}/tclap/include
+    ${CMAKE_CURRENT_SOURCE_DIR}
+    PARENT_SCOPE)

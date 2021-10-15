@@ -1,0 +1,116 @@
+-- The CXX compiler identification is AppleClang 11.0.3.11030032
+-- The C compiler identification is AppleClang 11.0.3.11030032
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/g++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found HDF5: /usr/local/Cellar/hdf5/1.12.1/lib/libhdf5.dylib;/usr/local/opt/szip/lib/libsz.dylib;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libz.tbd;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libdl.tbd;/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/lib/libm.tbd (found version "1.12.1")  
+-- Found OpenSSL: /usr/lib/libcrypto.dylib (found version "1.1.1k")  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/kshitij/Desktop/Software/npr-analysis-master/build
+[  1%] Building CXX object CMakeFiles/convert.dir/data/main.cpp.o
+[  3%] Building CXX object CMakeFiles/compare.dir/data/compare.cpp.o
+[  3%] Building CXX object CMakeFiles/merge.dir/data/merge.cpp.o
+[  4%] Building CXX object tests/CMakeFiles/test_fierz.dir/test_fierz.cpp.o
+[  5%] Building CXX object tests/CMakeFiles/test_jackknife.dir/test_jackknife.cpp.o
+[  5%] Building CXX object CMakeFiles/analysis.dir/main.cpp.o
+[  6%] Building CXX object CMakeFiles/convert.dir/data/io.cpp.o
+[  7%] Building CXX object CMakeFiles/compare.dir/data/io.cpp.o
+[  8%] Building CXX object CMakeFiles/merge.dir/data/io.cpp.o
+[  9%] Building CXX object CMakeFiles/analysis.dir/amputate.cpp.o
+[ 10%] Building CXX object CMakeFiles/analysis.dir/evaluate.cpp.o
+
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    MPI_CXX_COMPILER
+
+
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/tests/test_jackknife.cpp:1:
+/Users/kshitij/Desktop/Software/npr-analysis-master/tests/../jackknife.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/main.cpp:4:10: fatal error: 'tclap/CmdLine.h' file not found
+#include <tclap/CmdLine.h>
+         ^~~~~~~~~~~~~~~~~
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/merge.cpp:4:10: fatal error: 'tclap/CmdLine.h' file not found
+#include <tclap/CmdLine.h>
+         ^~~~~~~~~~~~~~~~~
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/compare.cpp:4:10: fatal error: 'tclap/CmdLine.h' file not found
+#include <tclap/CmdLine.h>
+         ^~~~~~~~~~~~~~~~~
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/tests/test_fierz.cpp:2:
+/Users/kshitij/Desktop/Software/npr-analysis-master/tests/../data.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/main.cpp:4:
+/Users/kshitij/Desktop/Software/npr-analysis-master/operator.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [tests/CMakeFiles/test_jackknife.dir/test_jackknife.cpp.o] Error 1
+make[1]: *** [tests/CMakeFiles/test_jackknife.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+1 error generated.
+1 error generated.
+1 error generated.
+1 error generated.
+make[2]: *** [CMakeFiles/convert.dir/data/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/compare.dir/data/compare.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/merge.dir/data/merge.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [tests/CMakeFiles/test_fierz.dir/test_fierz.cpp.o] Error 1
+make[1]: *** [tests/CMakeFiles/test_fierz.dir/all] Error 2
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/amputate.cpp:1:
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/amputate.h:5:
+/Users/kshitij/Desktop/Software/npr-analysis-master/data.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/evaluate.cpp:1:
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/evaluate.h:4:
+/Users/kshitij/Desktop/Software/npr-analysis-master/operator.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+make[2]: *** [CMakeFiles/analysis.dir/main.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.cpp:1:
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.h:8:
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/../data.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.cpp:1:
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.h:8:
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/../data.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.cpp:1:
+In file included from /Users/kshitij/Desktop/Software/npr-analysis-master/data/io.h:8:
+/Users/kshitij/Desktop/Software/npr-analysis-master/data/../data.h:5:10: fatal error: 'Grid/Grid.h' file not found
+#include <Grid/Grid.h>
+         ^~~~~~~~~~~~~
+1 error generated.
+1 error generated.
+make[2]: *** [CMakeFiles/analysis.dir/evaluate.cpp.o] Error 1
+make[2]: *** [CMakeFiles/analysis.dir/amputate.cpp.o] Error 1
+make[1]: *** [CMakeFiles/analysis.dir/all] Error 2
+1 error generated.
+make[2]: *** [CMakeFiles/convert.dir/data/io.cpp.o] Error 1
+make[1]: *** [CMakeFiles/convert.dir/all] Error 2
+1 error generated.
+1 error generated.
+make[2]: make[2]: *** [CMakeFiles/merge.dir/data/io.cpp.o] Error 1*** [CMakeFiles/compare.dir/data/io.cpp.o] Error 1
+
+make[1]: *** [CMakeFiles/merge.dir/all] Error 2
+make[1]: *** [CMakeFiles/compare.dir/all] Error 2
+make: *** [all] Error 2
+make: *** No rule to make target `install'.  Stop.
